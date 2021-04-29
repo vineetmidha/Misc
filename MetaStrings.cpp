@@ -56,3 +56,31 @@ bool checkMeta(string &str1, string &str2)
 
     return ans;
 }
+
+/*
+
+def solve(s1, s2):
+    if s1==s2: return "NO"
+    if len(s1) != len(s2): return "NO"
+
+    indexes = []
+
+    for idx in range(len(s1)):
+        if s1[idx] != s2[idx]:
+            indexes.append(idx)
+            
+    if len(indexes) != 2: return "NO"
+
+    if s1[indexes[0]] == s2[indexes[1]] and s1[indexes[1]] == s2[indexes[0]]:
+	    return "YES"
+    else:
+    	return "NO"
+
+t = int(input())
+
+for _ in range(t):
+    s1 = input()
+    s2 = input()
+    
+    print(solve(s1, s2))
+*/
