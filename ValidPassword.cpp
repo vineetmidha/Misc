@@ -7,7 +7,7 @@ bool isValid(string str)
         return false;
     
     bool digit = false, lower = false, upper = false, spl = false;
-    
+     
     for (auto c: str){
         if (isspace(c))
             return false;
