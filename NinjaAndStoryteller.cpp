@@ -24,3 +24,4 @@ int countStories(int x, int y, int z)
 
     return paid_stories + free_stories;
 }
+ 
